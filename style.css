@@ -1,4 +1,43 @@
 body {
-    background-color: navy;
-    color: white;
+    background-color: #181818;
+    color: #0ff;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 4%;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: solid;
+}
+
+input {
+    font-size: 16px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 4px;
+    background-color: #111;
+    color: #0cc;
+}
+
+#done {
+    font-size: 14px;
+    padding: 4px;
+    margin-left: 16px;
+    background-color: #111;
+    color: #0cc;
+}
+
+#listCompleted {
+    margin-left: -24px;
+}
+
+h1 {
+    font-size: 64px;
 }

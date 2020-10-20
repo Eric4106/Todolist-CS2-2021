@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
     <title>Todolist</title>
 </head>
-<body>
-        
+<body id="body">
+    <header id="header">
+        <h1>To-Do List of Things To Do 2</h1>
+    </header>
+    <main>
+        <input type="text" id="userInput">
+        <input type="button" value="add to list" id="addTodo">
+        <br><br>
+        <h2>To-Do Tasks</h2>
+        <ul id="listTodo">
+        </ul> <br>
+        <h2>Completed Tasks</h2>
+        <ul id="listCompleted">
+        </ul>
+    </main>
+    <script src="client.js"></script>
 </body>
 </html>
